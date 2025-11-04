@@ -10,9 +10,33 @@ Comprehensive AI assistant expert profiles for working with the Unicity Network.
 
 ## Installation
 
-### Quick Install (Recommended)
+### For Claude Code (Recommended)
 
-Clone this repository directly into your project's `.claude-agents` directory:
+Install agents directly for Claude Code CLI:
+
+```bash
+# Clone repository
+git clone https://github.com/unicitynetwork/unicity-expert-agents.git
+
+# Copy agents to Claude Code directory (project-level)
+cd your-project
+mkdir -p .claude/agents
+cp /path/to/unicity-expert-agents/.claude/agents/*.md .claude/agents/
+
+# OR install globally for all projects
+mkdir -p ~/.claude/agents
+cp /path/to/unicity-expert-agents/.claude/agents/*.md ~/.claude/agents/
+
+# Verify installation
+claude --list-agents
+# Or within Claude Code: /agents
+```
+
+**See [INSTALLATION.md](INSTALLATION.md) for detailed Claude Code installation guide.**
+
+### For Other AI Systems
+
+Clone this repository to access expert profiles and research documentation:
 
 ```bash
 # From your project root
@@ -35,37 +59,47 @@ git submodule add https://github.com/unicitynetwork/unicity-expert-agents.git .c
 git submodule update --init --recursive
 ```
 
-### Manual Download
-
-Download and extract the latest release:
-
-```bash
-# Download the latest release
-curl -L https://github.com/unicitynetwork/unicity-expert-agents/archive/refs/heads/main.zip -o unicity-agents.zip
-
-# Extract to .claude-agents directory
-unzip unicity-agents.zip -d .claude-agents/unicity
-```
-
 ### Verify Installation
 
 After installation, verify the structure:
 
 ```bash
-ls -la .claude-agents/unicity-experts/
+# For Claude Code
+ls -la .claude/agents/
 # Should show:
 # - unicity-architect.md
 # - consensus-expert.md
 # - proof-aggregator-expert.md
 # - unicity-developers.md
 
+# For research documentation
 ls -la .claude-agents/unicity-research/
 # Should show 16 research documents
 ```
 
 ## Usage
 
-### For AI Assistants (Claude, ChatGPT, etc.)
+### With Claude Code
+
+Claude Code **automatically invokes** the appropriate agent based on your question:
+
+```
+You: "Explain Unicity's architecture"
+→ unicity-architect agent responds
+
+You: "How do I set up mining?"
+→ consensus-expert agent responds
+
+You: "Show me the aggregator API"
+→ proof-aggregator-expert agent responds
+
+You: "How do I create a token in TypeScript?"
+→ unicity-developers agent responds
+```
+
+Agents have access to all research documentation and provide detailed, expert responses.
+
+### For Other AI Assistants (ChatGPT, etc.)
 
 When a user asks about Unicity Network, load the appropriate expert profile:
 

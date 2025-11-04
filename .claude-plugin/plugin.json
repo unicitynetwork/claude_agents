@@ -1,0 +1,8 @@
+{
+  "name": "unicity-experts",
+  "version": "1.0.0",
+  "description": "Unicity Network expert agents for architecture, consensus, aggregator, and SDK development",
+  "author": "Unicity Network",
+  "repository": "https://github.com/unicitynetwork/unicity-expert-agents",
+  "license": "MIT"
+}
