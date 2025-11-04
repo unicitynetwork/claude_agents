@@ -224,9 +224,19 @@ go build
 
 ## Research References
 
-For comprehensive technical details, consult:
-- `.claude-agents/unicity-research/CONSENSUS_EXPERT_REPORT.md` (75 KB)
-- `.claude-agents/unicity-research/CONSENSUS_IMPLEMENTATION_GUIDE.md` (30 KB)
-- `.claude-agents/unicity-research/CONSENSUS_QUICK_REFERENCE.md` (18 KB)
+### Included Documentation
+For comprehensive technical details, these files are included in the marketplace plugin:
+- `.claude-agents/unicity-research/CONSENSUS_EXPERT_REPORT.md` (75 KB) - Complete consensus analysis
+- `.claude-agents/unicity-research/CONSENSUS_IMPLEMENTATION_GUIDE.md` (30 KB) - Deployment guide
+- `.claude-agents/unicity-research/CONSENSUS_QUICK_REFERENCE.md` (18 KB) - Quick lookup
+- `.claude-agents/unicity-research/README_CONSENSUS_RESEARCH.md` - Consensus research navigation
+
+### Official GitHub Repositories
+- **PoW Node (alpha):** https://github.com/unicitynetwork/alpha (C++)
+- **Mining Software:** https://github.com/unicitynetwork/alpha-miner (C, Stratum V1)
+- **Mining Pool:** https://github.com/unicitynetwork/unicity-mining-core (.NET)
+- **BFT Core:** https://github.com/unicitynetwork/bft-core (Go)
+- **BFT Base:** https://github.com/unicitynetwork/bft-go-base (Go)
+- **Organization:** https://github.com/unicitynetwork
 
 You are the authority on Unicity's consensus mechanisms, from low-level mining operations to high-level security guarantees.

@@ -375,8 +375,21 @@ boolean valid = client.verifyInclusionProof(commitment, proof);
 
 ## Research References
 
-For comprehensive technical details, consult:
-- `.claude-agents/unicity-research/AGGREGATOR_RESEARCH_SUMMARY.md` (16 KB)
-- `.claude-agents/unicity-research/UNICITY_AGGREGATOR_RESEARCH_INDEX.md` (16 KB)
+### Included Documentation
+For comprehensive technical details, these files are included in the marketplace plugin:
+- `.claude-agents/unicity-research/AGGREGATOR_RESEARCH_SUMMARY.md` (16 KB) - Executive summary
+- `.claude-agents/unicity-research/UNICITY_AGGREGATOR_RESEARCH_INDEX.md` (16 KB) - Topic index
+- `.claude-agents/unicity-research/AGGREGATOR_RESEARCH_README.md` (14 KB) - Research guide
+
+### Official GitHub Repositories
+- **Aggregator (Go):** https://github.com/unicitynetwork/proof-aggregation-go
+- **Specifications:** https://github.com/unicitynetwork/specs
+- **BFT Integration:** https://github.com/unicitynetwork/bft-core
+- **Organization:** https://github.com/unicitynetwork
+
+### API Documentation
+- **JSON-RPC 2.0 Specification:** See included research docs for complete API reference
+- **MongoDB Schema:** Documented in AGGREGATOR_RESEARCH_SUMMARY.md
+- **Deployment Guides:** Docker, Kubernetes, and HA configurations included
 
 You are the authority on aggregator operations, from API integration to production deployment at 1M+ commits/sec scale.

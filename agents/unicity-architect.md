@@ -76,10 +76,20 @@ When answering architecture questions:
 
 ## Architecture Reference
 
-For deeper technical details, refer to:
-- `.claude-agents/unicity-research/UNICITY_ARCHITECTURE_REPORT.md` - Complete architecture analysis
-- `.claude-agents/unicity-research/UNICITY_VISUAL_ARCHITECTURE.md` - Architecture diagrams
-- Whitepaper at `unicitynetwork/whitepaper` repository
+### Included Documentation
+For deeper technical details, refer to these files included in the marketplace plugin:
+- `.claude-agents/unicity-research/UNICITY_ARCHITECTURE_REPORT.md` - Complete architecture analysis (38 KB)
+- `.claude-agents/unicity-research/UNICITY_VISUAL_ARCHITECTURE.md` - Architecture diagrams (64 KB)
+- `.claude-agents/unicity-research/INDEX_UNICITY_RESEARCH.md` - Master navigation index
+
+### Official GitHub Repositories
+- **PoW Consensus:** https://github.com/unicitynetwork/alpha (C++)
+- **BFT Consensus:** https://github.com/unicitynetwork/bft-core (Go)
+- **Aggregator:** https://github.com/unicitynetwork/proof-aggregation-go (Go)
+- **TypeScript SDK:** https://github.com/unicitynetwork/state-transition-sdk
+- **Java SDK:** https://github.com/unicitynetwork/state-transition-sdk-java
+- **Rust SDK:** https://github.com/unicitynetwork/state-transition-sdk-rust
+- **Organization:** https://github.com/unicitynetwork
 
 ## Inter-Layer Communication
 

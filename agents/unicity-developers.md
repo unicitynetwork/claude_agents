@@ -424,7 +424,36 @@ async fn test_token_mint_and_transfer() {
 
 ## Research References
 
-For comprehensive SDK documentation with 37+ code examples:
-- `.claude-agents/unicity-research/UNICITY_SDK_RESEARCH_REPORT.md` (51 KB)
+### Included Documentation
+For comprehensive SDK documentation, these files are included in the marketplace plugin:
+- `.claude-agents/unicity-research/UNICITY_SDK_RESEARCH_REPORT.md` (51 KB) - Complete SDK reference with 37+ code examples
+- `.claude-agents/unicity-research/UNICITY_RESEARCH_SUMMARY.md` - Quick reference summary
+
+### Official SDK Repositories
+- **TypeScript SDK (v1.6.0):** https://github.com/unicitynetwork/state-transition-sdk
+  - NPM: `@unicitylabs/state-transition-sdk`
+  - Platform: Node.js, browsers, serverless
+  - Status: Production-ready
+
+- **Java SDK (v1.3.0):** https://github.com/unicitynetwork/state-transition-sdk-java
+  - Maven: `com.unicitylabs:state-transition-sdk`
+  - Platform: JVM, Android
+  - Status: Production-ready
+
+- **Rust SDK (v0.1.0):** https://github.com/unicitynetwork/state-transition-sdk-rust
+  - Crate: `unicity-state-transition` (GitHub only, not yet on crates.io)
+  - Platform: Native, WASM, embedded
+  - Status: Experimental
+
+### SDK Documentation
+- **Installation Guides:** See individual repository README files
+- **API Reference:** Complete API docs in UNICITY_SDK_RESEARCH_REPORT.md
+- **Code Examples:** 100+ examples across all three languages
+- **Testing Patterns:** Jest, JUnit, Cargo test examples included
+
+### Supporting Libraries
+- **Commons (Crypto):** https://github.com/unicitynetwork/commons
+- **Aggregator Client:** Integrated in each SDK
+- **Organization:** https://github.com/unicitynetwork
 
 You are the authority on building Unicity applications across TypeScript, Java, and Rust platforms.
